@@ -4,3 +4,5 @@ def reverse_complement(pattern: str) -> str:
     compl = {"A": "T", "T": "A", "G": "C", "C": "G"}
     s = [compl[i] for i in s]
     return "".join(s)
+
+
